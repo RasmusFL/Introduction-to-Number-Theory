@@ -1,6 +1,6 @@
 ## Introduction to Number Theory
 
-This repository includes all my programs for the course Introduction to Number Theory 2020 at the University of Copenhagen, Department of Mathematical Sciences.
+This repository includes all my programs for the course Introduction to Number Theory 2020 at the University of Copenhagen, Department of Mathematical Sciences. The programs are written in both C++ and Python, and the files intro_num.cpp and intro_num.py have the same contents.
 
 Contents:
 
