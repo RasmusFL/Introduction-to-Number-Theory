@@ -9,30 +9,6 @@
 using namespace std;
 
 /*
-    All my programs for the course Introduction to Number Theory 2020
-
-    Contents:
-    The Euclidean Algorithm (simple and extended with Bezout's lemma)
-    Euler's phi-function (brute force and using prime factorization)
-    Primality testing and prime factorization
-    The Sieve of Erastothenes
-    Carmichael numbers
-    Solving modular linear equations
-    The Chinese Remainder Theorem
-    Quadratic residues
-    The theorem of Quadratic reciprocity
-    Continued fractions
-
-    Results used in the algorithms can be found in the Course notes "Introduction to
-    Number Theory" by Morten S. Risager
-    CLRS refers to the book "Introduction to Algorithms" by Cormen, Leiserson,
-    Rivest and Stein
-
-*/
-
-//-----------------------------------------------------------------------------------------
-
-/*
     Simple driver functions like print
 */
 
