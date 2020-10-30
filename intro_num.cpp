@@ -379,7 +379,8 @@ llint binToDec(string bin)
 llint modularExponentiation(unsigned llint a, unsigned llint b, unsigned int n)
 // calculates a^b mod n using modular exponentiation
 {
-    b %= Eulerphi2(n);                      // reduce the power by phi(n) by Euler's theorem
+    if (Euclid(a, n) == 1)
+        b %= Eulerphi2(n);                  // reduce the power by phi(n) by Euler's theorem
     string bin = decToBin(b);               // get the power in binary
     vector<llint> powers;
     powers.push_back(a % n);                                // the initial power is just a itself
