@@ -263,8 +263,9 @@ def bin_to_dec(binary: list):
 
 # calculates a^b mod n using modular exponentiation
 def modular_exponentiation(a: int, b: int, n: int):
-    b %= euler_phi2(n)      # reduce the power by phi(n) by Euler's theorem
-    binary = dec_to_bin(b)  # get the power in binary
+    if euclid(a, n) == 1:
+        b %= euler_phi2(n)      # reduce the power by phi(n) by Euler's theorem
+    binary = dec_to_bin(b)      # get the power in binary
     powers = [a % n]
 
     for i in range(1, len(binary)):
